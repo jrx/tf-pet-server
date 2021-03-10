@@ -1,7 +1,7 @@
 variable "pet_name_length" {
-  type        = number
+  type        = string
   description = "Length of the pet name."
-  default     = 2
+  default     = "2"
 }
 
 variable "example" {
